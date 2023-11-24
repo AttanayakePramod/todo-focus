@@ -1,0 +1,15 @@
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\bin\Debug\net6.0\Assignment.BusinessLogic.deps.json
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\bin\Debug\net6.0\Assignment.BusinessLogic.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\bin\Debug\net6.0\Assignment.BusinessLogic.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\bin\Debug\net6.0\Assignment.Core.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\bin\Debug\net6.0\Assignment.Core.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.AssemblyInfo.cs
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.csproj.CopyComplete
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\refint\Assignment.BusinessLogic.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\ref\Assignment.BusinessLogic.dll

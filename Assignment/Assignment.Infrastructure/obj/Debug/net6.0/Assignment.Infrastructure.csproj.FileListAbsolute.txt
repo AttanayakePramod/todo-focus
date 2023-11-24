@@ -1,0 +1,17 @@
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\bin\Debug\net6.0\Assignment.Infrastructure.deps.json
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\bin\Debug\net6.0\Assignment.Infrastructure.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\bin\Debug\net6.0\Assignment.Infrastructure.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\bin\Debug\net6.0\Assignment.BusinessLogic.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\bin\Debug\net6.0\Assignment.Core.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\bin\Debug\net6.0\Assignment.Core.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\bin\Debug\net6.0\Assignment.BusinessLogic.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\Assignment.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\Assignment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\Assignment.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\Assignment.Infrastructure.AssemblyInfo.cs
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\Assignment.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\Assignment.Infrastructure.csproj.CopyComplete
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\Assignment.Infrastructure.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\refint\Assignment.Infrastructure.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\Assignment.Infrastructure.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Infrastructure\obj\Debug\net6.0\ref\Assignment.Infrastructure.dll

@@ -1,0 +1,12 @@
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\bin\Debug\net6.0\Assignment.Core.deps.json
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\bin\Debug\net6.0\Assignment.Core.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\bin\Debug\net6.0\Assignment.Core.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.csproj.AssemblyReference.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.AssemblyInfoInputs.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.AssemblyInfo.cs
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.csproj.CoreCompileInputs.cache
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\refint\Assignment.Core.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.pdb
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\ref\Assignment.Core.dll
