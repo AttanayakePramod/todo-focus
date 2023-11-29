@@ -1,38 +1,51 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import TodoService from '../service/TodoService';
 import { generateRandomId } from '../util/Utils';
 
 const initialState = {
-  id:generateRandomId(),
+  id: generateRandomId(),
   title: '',
   description: '',
-  status:''
+  status: ''
 };
 
 const Home = () => {
-    const [toDoItem, setToDoItem] = useState(initialState);
+  const [toDoItem, setToDoItem] = useState(initialState);
+  const [toDoItems, setToDoItems] = useState([]);
+  const handleChange = (e) => {
+    setToDoItem((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
 
-    const handleChange = (e) => {
-      setToDoItem((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-    };
-  
-    const handleAddTask = (e) => {
-      e.preventDefault();
-      if (toDoItem.title.trim() !== "") {
-        
-  
-        // Assuming TodoService.addTodo is an API call to add a todo
-        TodoService.addTodo(toDoItem)
-          .then((res) => {
-            console.log(res);
-          })
-          .catch((error) => {
-            console.error(error);
-          });
-  
-        setToDoItem(initialState); // Reset the form state
-      }
-    };
+  const handleAddTask = async(e) => {
+    e.preventDefault();
+    if (toDoItem.title !== "") {
+     await TodoService.addTodo(toDoItem)
+        .then((res) => {
+          console.log(res);
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+
+      setToDoItem(initialState);
+      loadData();
+    }
+  };
+
+  useEffect(() => {
+    loadData();
+
+  }, [])
+  const loadData = async() => {
+    await TodoService.getTodos()
+      .then((res) => {
+        setToDoItems(res);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+
+  }
   return (
     <div>
       <h2 className="bg-purple-600 text-white text-center max-w-2xl text-5xl shadow-xl font-mono-medium m-auto mt-5 mb-5 p-5 border-gray-400 rounded-lg">Todo List</h2>
@@ -79,8 +92,8 @@ const Home = () => {
         </form>
       </div>
 
-      {/* Assuming List component is used to display the added tasks */}
-      {/* <List items={toDoItem} /> */}
+    
+      {/* <List items={toDoItems} loadData={loadData}/> */}
     </div>
   )
 }

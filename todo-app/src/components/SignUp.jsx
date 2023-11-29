@@ -5,7 +5,7 @@ const SignUp = () => {
  
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+ 
   const handleSignUp = () => {
    
     console.log('Email:', email);
@@ -16,7 +16,7 @@ const SignUp = () => {
         email: email,
         password: password
     }
-    UserService.login(obj).then((res)=>{
+    UserService.register(obj).then((res)=>{
         console.log(res)
     })
   };

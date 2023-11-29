@@ -1,12 +1,12 @@
 import React from 'react'
 import Item from './Item'
 
-const List = (items) => {
+const List = (props) => {
     return (
       <div>
         <div className="grid justify-items-center">
-        {items.map((item, index) => (
-  <Item key={index} name={item.title} description={item.description} />
+        {props.items?.map((item, index) => (
+  <Item key={index} title={item.title} description={item.description} status={item.status} id={item.id} loadData={props.loadData}/>
 ))}
         </div>
       </div>

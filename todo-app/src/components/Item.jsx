@@ -6,34 +6,39 @@ const options = ["TODO", "In Progress", "Done", "High Priority", "Low", "Medium"
 const Item = (props) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [taskSelected, setTaskSeleted] = useState();
-    const deleteTask = () => {
-        TodoService.deleteTodo(props.id);
+    const deleteTask = async() => {
+        await TodoService.deleteTodo(props.id);
+        await props.loadData();
     }
     const showModal = () => {
         setIsModalOpen(true);
         setTaskSeleted(props)
     };
 
-    const handleOk = () => {
-        setIsModalOpen(false);
+    const handleOk = async() => {
+       
         console.log(taskSelected)
-        TodoService.editTodo(taskSelected).then((res) => {
+       await TodoService.editTodo(taskSelected).then((res) => {
             if (res.data) {
-                loadData();
+                props.loadData();
             }
         })
         setTaskSeleted(null)
+        setIsModalOpen(false);
     };
 
     const handleCancel = () => {
         setIsModalOpen(false);
         setTaskSeleted(null)
     };
+    const handleUpdateChange = (e) => {
+        setTaskSeleted((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+      };
     return (
         <><div className="bg-white  flex  items-center h-[100px] rounded-lg w-[400px] p-3 mt-5">
             <div className="flex justify-between w-[100%]">
                 <div>
-                    <h5 className="font-sans font-semibold text-lg">{props.name}</h5>
+                    <h5 className="font-sans font-semibold text-lg">{props.title}</h5>
                     <p className="font-sans font-semibold text-lg">{props.description}</p>
                 </div>
 
