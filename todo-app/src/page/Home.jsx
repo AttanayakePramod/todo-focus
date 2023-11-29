@@ -93,7 +93,7 @@ const Home = () => {
       </div>
 
     
-      {/* <List items={toDoItems} loadData={loadData}/> */}
+      <List items={toDoItems} loadData={loadData}/>
     </div>
   )
 }

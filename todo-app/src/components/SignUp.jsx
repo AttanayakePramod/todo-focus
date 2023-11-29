@@ -12,7 +12,7 @@ const SignUp = () => {
     console.log('Password:', password);
 
     const obj = {
-        id:generateRandomIdate(),
+        id:generateRandomId(),
         email: email,
         password: password
     }
