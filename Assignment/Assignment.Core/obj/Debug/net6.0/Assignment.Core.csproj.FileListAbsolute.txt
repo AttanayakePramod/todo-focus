@@ -10,3 +10,4 @@ C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debu
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\refint\Assignment.Core.dll
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.pdb
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\ref\Assignment.Core.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.Core\obj\Debug\net6.0\Assignment.Core.sourcelink.json

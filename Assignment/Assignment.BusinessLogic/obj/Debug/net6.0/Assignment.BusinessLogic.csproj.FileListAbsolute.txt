@@ -13,3 +13,4 @@ C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\refint\Assignment.BusinessLogic.dll
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.pdb
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\ref\Assignment.BusinessLogic.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.BusinessLogic\obj\Debug\net6.0\Assignment.BusinessLogic.sourcelink.json

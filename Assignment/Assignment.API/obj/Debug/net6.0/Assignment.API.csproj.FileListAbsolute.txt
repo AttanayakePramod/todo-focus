@@ -51,3 +51,4 @@ C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.API\obj\Debug
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.API\obj\Debug\net6.0\Assignment.API.pdb
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.API\obj\Debug\net6.0\Assignment.API.genruntimeconfig.cache
 C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.API\obj\Debug\net6.0\ref\Assignment.API.dll
+C:\Users\Pramod\Desktop\Debugsire Assignment\Assignment\Assignment.API\obj\Debug\net6.0\Assignment.API.sourcelink.json

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import TodoService from '../service/TodoService';
 import { generateRandomId } from '../util/Utils';
+import { List } from 'antd';
 
 const initialState = {
   id: generateRandomId(),
@@ -35,7 +36,7 @@ const Home = () => {
   useEffect(() => {
     loadData();
 
-  }, [])
+  }, []);
   const loadData = async() => {
     await TodoService.getTodos()
       .then((res) => {
@@ -90,12 +91,12 @@ const Home = () => {
             </button>
           </div>
         </form>
+        <List items={toDoItems} loadData={loadData}/>
       </div>
-
     
-      <List items={toDoItems} loadData={loadData}/>
+      
     </div>
   )
 }
 
-export default Home
+export default Home;
