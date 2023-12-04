@@ -52,49 +52,42 @@ const Home = () => {
       <h2 className="bg-purple-600 text-white text-center max-w-2xl text-5xl shadow-xl font-mono-medium m-auto mt-5 mb-5 p-5 border-gray-400 rounded-lg">Todo List</h2>
 
       <div className="flex justify-center">
-        <form onSubmit={handleAddTask}>
-          <div className="space-x-5">
-            <input
-              className="rounded p-1 m-1"
-              type="text"
-              placeholder="Add Task"
-              value={toDoItem.title}
-              name="title"
-              onChange={handleChange}
-            />
-            <input
-              className="rounded p-1 m-1"
-              type="text"
-              placeholder="Add Description"
-              value={toDoItem.description}
-              name="description"
-              onChange={handleChange}
-            />
-
-            <select
-              className="rounded p-1 m-1"
-              value={toDoItem.status}
-              name="status"
-              onChange={handleChange}
-            >
-              <option value="todo">Todo</option>
-              <option value="inprogress">In Progress</option>
-              <option value="done">Done</option>
-            </select>
-
-
-            <button
-              type="submit"
-              className="bg-blue-500 hover:bg-blue-900 rounded-md text-white px-5 text-xl py-1"
-            >
-              Add
-            </button>
-          </div>
+        <form onSubmit={handleAddTask} className="flex flex-col items-center border p-4 rounded-md shadow-md">
+          <input
+            className="rounded p-2 m-2 border outline-none"
+            type="text"
+            placeholder="Add Task"
+            value={toDoItem.title}
+            name="title"
+            onChange={handleChange}
+          />
+          <input
+            className="rounded p-2 m-2 border outline-none"
+            type="text"
+            placeholder="Add Description"
+            value={toDoItem.description}
+            name="description"
+            onChange={handleChange}
+          />
+          <select
+            className="rounded p-2 m-2 border outline-none"
+            value={toDoItem.status}
+            name="status"
+            onChange={handleChange}
+          >
+            <option value="todo">Todo</option>
+            <option value="inprogress">In Progress</option>
+            <option value="done">Done</option>
+          </select>
+          <button
+            type="submit"
+            className="bg-blue-500 hover:bg-blue-900 rounded-md text-white px-6 text-xl py-2 mt-4"
+          >
+            Add
+          </button>
         </form>
-        <List items={toDoItems} loadData={loadData}/>
+        <List items={toDoItems} loadData={loadData} />
       </div>
-    
-      
     </div>
   )
 }
